@@ -85,3 +85,24 @@ section {
     align-items: center;
 }
 
+.gameplay .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+    gap: 1.5rem;
+    align-items: flex-start;
+}
+
+.gameplay .box-container .box {
+    text-align: center;
+}
+
+.gameplay .box-container .box img {
+    height: 19rem;
+    margin-bottom: .5rem;
+}
+
+.gameplay .box-container .box h3 {
+    font-size: 2rem;
+    color: var(--black);
+    margin: 1rem 0;
+}
