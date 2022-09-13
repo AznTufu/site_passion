@@ -107,20 +107,19 @@ section {
     margin: 1rem 0;
 }
 
-p{
-    text-align: center;
-    font-size: 10rem;
-    color: var(--black);
-}
-img {
-    width: 100%;
-    margin-bottom: 1rem;
-}
-.map {
+.map .box-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, 30rem);
     gap: 2rem;
     align-items: flex-start;
     justify-content: center;
-    
+}
+
+.map .box-container .box {
+    text-align: center;
+}
+
+.map .box-container .box img {
+    width: 100%;
+    margin-bottom: 1rem;
 }
